@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLLoader", "XMLLoader\XMLLoader.csproj", "{7812420B-7B49-48F8-AA50-B530656EB610}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.API", "Product.Api\Warehouse.API.csproj", "{836CE20B-94A7-4B87-AEDF-7570548A588B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.API", "Warehouse.Api\Warehouse.API.csproj", "{836CE20B-94A7-4B87-AEDF-7570548A588B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Client", "Warehouse.Client\Warehouse.Client.csproj", "{466D93F6-6093-4075-8CE3-443420FC06B4}"
 EndProject
