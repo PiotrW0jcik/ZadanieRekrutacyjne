@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLLoader", "XMLLoader\XMLL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.API", "Warehouse.Api\Warehouse.API.csproj", "{836CE20B-94A7-4B87-AEDF-7570548A588B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Client", "Warehouse.Client\Warehouse.Client.csproj", "{466D93F6-6093-4075-8CE3-443420FC06B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Client", "Warehouse.Client\Warehouse.Client.csproj", "{466D93F6-6093-4075-8CE3-443420FC06B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLLoader.Tests", "XMLLoader.Tests\XMLLoader.Tests.csproj", "{57D4A35E-9A70-4D8D-B720-7B3440FDC17A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{466D93F6-6093-4075-8CE3-443420FC06B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{466D93F6-6093-4075-8CE3-443420FC06B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{466D93F6-6093-4075-8CE3-443420FC06B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D4A35E-9A70-4D8D-B720-7B3440FDC17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D4A35E-9A70-4D8D-B720-7B3440FDC17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D4A35E-9A70-4D8D-B720-7B3440FDC17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D4A35E-9A70-4D8D-B720-7B3440FDC17A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

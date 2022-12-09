@@ -58,7 +58,7 @@ namespace XMLLoader.Services
             }
         }
 
-        private async Task AddOrUpdateProductsToDb(Products products)
+        public async Task AddOrUpdateProductsToDb(Products products)
         {
             foreach (var product in products.Product)
             {
@@ -80,7 +80,7 @@ namespace XMLLoader.Services
             await _ProductDbContext.SaveChangesAsync();   
         }
 
-        private Products DeserializeObject(string filename)
+        public Products DeserializeObject(string filename)
         {
             XmlSerializer serializer =new XmlSerializer(typeof(Products));
             Products products;
