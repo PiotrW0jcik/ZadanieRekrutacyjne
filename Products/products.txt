@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product name="my name 1" description="camcorders" category="camcorders" quantity="3" price="4.99" />
+    <product name="my name 2" description="camcorders" category="camcorders" quantity="3" price="4.99" />
+    <product name="my name 3" description="camcorders" category="camcorders" quantity="4" price="4.99" />
+    <product name="my name 4" description="wrong_family_code" category="camcorders" quantity="3" price="4.99" />
+</products>
